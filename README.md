@@ -1,0 +1,1 @@
+sudo docker run -v $(pwd):/input -v $(pwd)/output:/output deezer/spleeter:3.6-5stems separate -o /output /input/Queen.mp3
