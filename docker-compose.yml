@@ -21,7 +21,7 @@ services:
     container_name: rabbitmq
     ports:
       - "5672:5672"   # Main AMQP port
-      - "15672:15672" # Admin UI
+      - "15672:15672" # Admin UI          # User and password: guest
     networks:
       - app-net
 
